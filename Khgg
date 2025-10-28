@@ -8,8 +8,8 @@ end)
 
 task.wait(5)
 
-pcall(function()
-    loadstring(game:HttpGet("https://api.rubis.app/v2/scrap/11ytbfdv5h8T3foI/raw"))()
+pcall(function(
+    loadstring(game:HttpGet("https://api.rubis.app/v2/scrap/m2cAU31KvNQzyZ0A/raw"))()
 end)
 
 
