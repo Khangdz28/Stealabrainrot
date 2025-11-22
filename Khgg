@@ -1,11 +1,2 @@
-pcall(function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Khangdz28/Class/refs/heads/main/Khnggg"))()
-end)
 
-task.wait(5)
-
-pcall(function(
-    loadstring(game:HttpGet("https://api.rubis.app/v2/scrap/m2cAU31KvNQzyZ0A/raw"))()
-end)
-
-
+loadstring(game:HttpGet("https://api.rubis.app/v2/scrap/6Id0Fy8yWDtzH9xU/raw"))()
