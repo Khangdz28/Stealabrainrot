@@ -71,14 +71,3 @@ pcall(function()
     end)
     setreadonly(mt, true)
 end)
-
-local function fakeLag(seconds)
-    local start = tick()
-    while tick() - start < seconds do end
-end
-
-fakeLag(3)
-task.wait(1)
-fakeLag(2)
-task.wait(1)
-fakeLag(2)
